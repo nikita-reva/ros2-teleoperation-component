@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400&display=swap');
+
+body {
+  margin: 0;
+  background: var(--primary-color-darker);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary-color-light: #23dbd8;
+  --primary-color-lighter: #3afcf8;
+  --primary-color-dark: #357372;
+  --primary-color-darker: #255251;
+  --secondary-color: #3bbfbd;
+  --secondary-color-yellow: #e8cb3a;
+  --secondary-color-orange: #dba342;
+  --secondary-color-red: #db756e;
+  --secondary-color-palered: #db948f;
+  --secondary-color-brown: #db9d79;
+  --secondary-color-beige: #dbbb84;
+  --secondary-color-blue: #639edb;
+  --secondary-color-darkblue: #466f9c;
+  --secondary-color-green: #4ddb88;
+  --secondary-color-darkgreen: #3ba868;
+  --tertiary-color: #3b5673;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
