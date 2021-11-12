@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ros2-teleoperation-component/static/css/main.fbd7b0f4.chunk.css",
+    "main.js": "/ros2-teleoperation-component/static/js/main.1b85978b.chunk.js",
+    "main.js.map": "/ros2-teleoperation-component/static/js/main.1b85978b.chunk.js.map",
+    "runtime-main.js": "/ros2-teleoperation-component/static/js/runtime-main.c00e936f.js",
+    "runtime-main.js.map": "/ros2-teleoperation-component/static/js/runtime-main.c00e936f.js.map",
+    "static/js/2.f19684fd.chunk.js": "/ros2-teleoperation-component/static/js/2.f19684fd.chunk.js",
+    "static/js/2.f19684fd.chunk.js.map": "/ros2-teleoperation-component/static/js/2.f19684fd.chunk.js.map",
+    "static/js/3.218cdaee.chunk.js": "/ros2-teleoperation-component/static/js/3.218cdaee.chunk.js",
+    "static/js/3.218cdaee.chunk.js.map": "/ros2-teleoperation-component/static/js/3.218cdaee.chunk.js.map",
+    "index.html": "/ros2-teleoperation-component/index.html",
+    "static/css/main.fbd7b0f4.chunk.css.map": "/ros2-teleoperation-component/static/css/main.fbd7b0f4.chunk.css.map",
+    "static/js/2.f19684fd.chunk.js.LICENSE.txt": "/ros2-teleoperation-component/static/js/2.f19684fd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c00e936f.js",
+    "static/js/2.f19684fd.chunk.js",
+    "static/css/main.fbd7b0f4.chunk.css",
+    "static/js/main.1b85978b.chunk.js"
+  ]
+}
