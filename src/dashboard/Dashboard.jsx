@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
 import { useRosConnection } from '../ros/rosService';
 import Connection from './Connection';
 import Teleoperation from './Teleoperation';
 import RobotState from './RobotState';
+import { GamepadContext } from '../contexts/GamepadContext';
 
 const Heading = styled.h1`
   align-self: center;
@@ -31,13 +32,24 @@ const ContentContainer = styled.div`
 
 export default function Dashboard() {
   const [ros, connected] = useRosConnection();
+  const [gamepadConnected, setGamepadConnected] = useState(false);
+  const [gamepadActivated, setGamepadActivated] = useState(false);
 
   return (
     <ContentContainer>
-      <Heading pos="c">ROS2 Teleoperation Dashboard</Heading>
-      <Connection connected={connected} />
-      <Teleoperation ros={ros} connected={connected} />
-      <RobotState ros={ros} connected={connected} />
+      <GamepadContext.Provider
+        value={{
+          gamepadConnected,
+          setGamepadConnected,
+          gamepadActivated,
+          setGamepadActivated,
+        }}
+      >
+        <Heading pos="c">ROS2 Teleoperation Dashboard</Heading>
+        <Connection connected={connected} />
+        <Teleoperation ros={ros} connected={connected} />
+        <RobotState ros={ros} connected={connected} />
+      </GamepadContext.Provider>
     </ContentContainer>
   );
 }
